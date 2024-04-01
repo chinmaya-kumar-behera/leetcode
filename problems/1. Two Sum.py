@@ -1,5 +1,17 @@
+from typing import List
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        for ind in range(len(nums)-1):
-            if nums[ind]+nums[ind+1] == target:
-                return [ind,ind+1]
+        for i in range(len(nums)-1):
+            for j in range(i+1,len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i,j]
+           
+            
+
+l = [3,2,3]
+
+obj = Solution()
+x = Solution.twoSum(obj,l,6)
+
+print(x)
