@@ -1,7 +1,7 @@
 class Solution:
     def digitSum(self, s, k):
        
-        while len(s) > 3:
+        while len(s) > k:
             news = ""
             while len(s) > 0:
                 stringWord = s[0:k]
@@ -11,3 +11,4 @@ class Solution:
         return news
 
 print(Solution().digitSum('11111222223',3))
+
