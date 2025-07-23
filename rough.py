@@ -1,4 +1,4 @@
-# x = dict([[10,20]])
+# x = dict([[10,20]]) ki ph
 
 # class CustomError(Exception):
 #     def __init__(self,value):
@@ -62,7 +62,7 @@ print(x.__str__())
 
 # s1 = sample()
 # s2 = sample()
-# print(s1 is s2)
+# print(s1 
 
 
 
